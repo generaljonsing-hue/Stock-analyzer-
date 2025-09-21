@@ -13,34 +13,6 @@ An AI-powered stock analysis application that allows users to upload stock chart
 
 ## 🚀 Quick Start
 
-### Option 1: Automated Setup (Recommended)
-```bash
-# Clone the repository
-git clone <your-repo-url>
-cd stock-analysis-app
-
-# Run setup script
-chmod +x setup.sh
-./setup.sh
-
-# Start development servers
-npm run dev
-```
-
-### Option 2: Manual Setup
-```bash
-# Install backend dependencies
-cd backend
-pip install -r requirements.txt
-
-# Install frontend dependencies  
-cd ../frontend
-yarn install
-
-# Go back to root
-cd ..
-```
-
 ### Start backend (super easy)
 
 If you only want to start the backend quickly (no prior setup knowledge required), open PowerShell and run these commands exactly as shown.
@@ -86,11 +58,6 @@ If you only need to run the frontend locally, open PowerShell and run these comm
 cd "D:\\Trade AI\\Stock-analyzer-Frontend\\frontend"
 ```
 
-2) (Optional) If you want to set the backend URL for the frontend locally, create a `.env.development` file in the `frontend` folder with the following content (or run the exact command below to set it for the current shell):
-
-```powershell
-# Create .env.development with the backend URL
-@'
 REACT_APP_BACKEND_URL=http://localhost:8001
 '@ > .env.development
 
