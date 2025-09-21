@@ -368,4 +368,12 @@ For issues and questions:
 
 ---
 
-**Made with ❤️ for stock analysis enthusiasts**
+**Made with for stock analysis enthusiasts**
+
+# For your reference: 
+
+frontend :
+D:\Trade AI\TradeAi\frontend> npm start 
+
+backend :
+D:\Trade AI\TradeAi-Backend> python -m uvicorn server:app --host 127.0.0.1 --port 8001 
